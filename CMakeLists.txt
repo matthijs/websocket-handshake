@@ -20,7 +20,7 @@ include(cmake/sanitizers.cmake)
 include(cmake/tools.cmake)
 
 # Require c++17
-cxx_17()
+cxx_20()
 
 message(STATUS "Using ${CMAKE_CXX_COMPILER} (compiler id: ${CMAKE_CXX_COMPILER_ID})")
 
